@@ -7,6 +7,8 @@ Este é um projeto de implementação do clássico jogo Tetris para dois jogador
 
 O propósito deste projeto é fornecer uma versão digital do popular jogo Tetris que pode ser facilmente acessada e jogada por usuários na web. Ele visa recriar a experiência de jogo do Tetris original e proporcionar entretenimento para os usuários. Nesta versão, dois jogadores podem jogar simultaneamente, cada um com sua própria área de jogo e pontuação.
 
+![](exemplo.png "Animação com Neve")
+
 ## Tecnologias Utilizadas
 
 As principais tecnologias, frameworks e linguagens utilizadas neste projeto são:

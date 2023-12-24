@@ -1,6 +1,7 @@
 # Jogo Tetris para Dois Jogadores
 ## README gerado pela mesma IA usada nos projetos ([PHIND](https://phind.com)).
-https://felpin007.github.io/2playTetris/
+https://felpin007.github.io/2playTetris/.
+
 Este é um projeto de implementação do clássico jogo Tetris para dois jogadores. Ele permite que os usuários joguem o jogo diretamente em seu navegador web.
 
 ## Visão Geral

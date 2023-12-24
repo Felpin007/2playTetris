@@ -1,4 +1,5 @@
 # Jogo Tetris para Dois Jogadores
+## README gerado pela mesma IA usada nos projetos ([PHIND](https://phind.com)).
 
 Este é um projeto de implementação do clássico jogo Tetris para dois jogadores. Ele permite que os usuários joguem o jogo diretamente em seu navegador web.
 

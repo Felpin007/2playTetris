@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tetris</title>
+  <style>
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#game-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-wrapper {
+  flex: 0 0 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#game, #game2 {
+  flex: 0 0 45%;
+  max-height: 85%;
+}
+
+button {
+  flex: 0 0 10%;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+#score, #score2 {
+    font-size: 2em;
+    color: #007BFF;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+  </style>
+</head>
+<body>
+  <div id="game-container">
+    <div class="game-wrapper">
+      <p id="score">Score1: 0</p>
+      <canvas id="game" width="300" height="600"></canvas>
+    </div>
+    <button id="start-button" onclick="startGame()">Start Game</button>
+    <div class="game-wrapper">
+      <p id="score2">Score2: 0</p>
+      <canvas id="game2" width="300" height="600"></canvas>
+    </div>
+  </div>
+  <script src="tetris.js"></script>
+</body>
+</html>
